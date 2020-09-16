@@ -42,7 +42,7 @@
 
 			// Add grid command
 			editor.addCommand('addGrid', addGrid);
-			editor.ui.addButton("addGrid", {
+			editor.ui.addButton('addGrid', {
 				label: 'Ajouter une grille',
 				command: 'addGrid',
 				toolbar: 'insert',
