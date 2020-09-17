@@ -1,0 +1,26 @@
+.d-flex {
+	display: flex;
+}
+
+.flex-col {
+	flex-direction: column;
+}
+
+input[type=range] {
+	width: 95%;
+    margin: 0 auto;
+}
+
+datalist {
+	display: flex;
+    justify-content: space-evenly;
+}
+
+datalist option {
+	padding-top: 5px !important;
+	text-align: center !important;
+}
+
+datalist option.label-10 option{
+	width: 10% !important;
+}

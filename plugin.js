@@ -38,6 +38,7 @@
 	CKEDITOR.plugins.add('grid', {
 		init: function (editor) {
 
+			CKEDITOR.document.appendStyleSheet(this.path + 'css/style.css');
 			editor.addContentsCss(this.path + 'css/bootstrap-grid.min.css');
 
 			// Add grid command
